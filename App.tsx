@@ -37,7 +37,7 @@ const askQuestion = () => {
 const defineTemperamentByCount = () => {
     let result = "Неможливо визначити";
 
-    if (counter > 0 && counter < 2) {
+    if (counter >= 0 && counter < 2) {
         result = "Інтроверт";
     } else if (counter > 2 && counter < 5) {
         result = "Флегматик-інтроверт";
